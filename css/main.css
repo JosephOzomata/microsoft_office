@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Segoe UI;
+}
+/*nav_bar starts here*/
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    background-color: #ffff;
+    padding: 0px 30px 0px 30px;
+}
+.row_one img{
+    padding-top: 10px;
+    height: 25px;
+}
+.row_one_items ul{
+    display: flex;
+    padding: 16px 20px 20px 20px;
+    list-style: none;
+}
+.row_one_items{
+    display: flex;
+}
+.row_one ul{
+    display: flex;
+}
+.tag_one{
+    padding-right: 30px;
+}
+.tag_one:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row_two ul{
+    display: flex;
+    list-style: none;
+    padding: 16px 20px 20px 20px;
+}
+.row_two img{
+    height: 20px;
+}
+.go:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icon{
+    padding-left: 20px;
+}
+.account{
+    padding-left: 20px;
+}
+/*nav_bar ends here*/
+
+/* banner starts headerbanner */
+.banner{
+    background-image: url(../image/banner_one.webp);
+    height: 400px;
+   width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    
+}
+.container_one{
+    
+}
+.write{
+    padding: 60px 20px 20px 50px;
+}
+.write p{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.btn button{ 
+    color: #ffff;
+    background-color: #005ca5;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn{
+   display: flex;
+}
+.rest{
+    font-size: 17px;
+    padding: 10px 0px 0px 20px;
+}
+/* banner ends here */
+.four_side{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 30px;
+}
+.tap:hover{
+    color: #005ca5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tap{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #005ca5;
+}
+.sleep{
+    padding-left: 10px;
+}
+.sleep p{
+    font-size: 16px;
+}
+.cap{
+    padding-top: 30px;
+}
+.close{
+    padding: 20px 40px 20px 40px;
+    height: 600px;
+}
+.bann{
+    background-image: url(../image/banner_three.webp);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.container_two{
+
+}
+.wrist{
+    padding: 60px 20px 20px 50px;
+}
+.wrist p{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.bton{
+    color: #ffff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.bton button{
+    color: #ffff;
+    background-color: #005ca5;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+} 
+.for{
+    text-align: left;
+    padding: 50px 40px 20px 40px;
+    margin-bottom: -100px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 20px 40px;
+}
+.bfor{
+    display: flex;
+    padding: 100px 40px 20px 0px;
+}
+.bfor p{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.imag{
+    padding-left: 20px;
+}
+.imag img{
+    padding: 5px 20px 20px 0px;
+    height: 30px;
+    width: 30px;
+}
+.dull{
+    padding-top: 150px;
+}
+.dull button{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(236, 233, 233));
+    border: none;
+}
+.fill{
+    background-color:  rgb(236, 233, 233);
+}
+.footer{
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    height: 400px;
+} 
+.ul{
+    list-style: none;
+    padding: 50px 20px 20px 40px;
+    font-size: small;
+}
+.ul li{
+    color: grey;
+}
+.ul li:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ul h3{
+    color: gray;
+    font-size: large;
+}
+.pl{
+    display: flex;
+    list-style: none;
+}
+.pl li{
+    color: gray;
+    font-size: small;
+    padding: 20px 20px 20px 20px;
+}
+.pl li:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pl p{
+    color: gray;
+    font-size: small;
+    padding-top: 20px;
+}
+.bottom{
+    display: flex;
+}
+.bottom_left{
+    display: flex;
+}
+.par{
+    padding-left: 230px;
+    display: flex;
+}
